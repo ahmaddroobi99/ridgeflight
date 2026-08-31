@@ -1,24 +1,17 @@
 # Ridgeflight
 
-A low-poly 3D aerial scout. Fly a hover-craft over a faceted island chain with mouse-look, keyboard thrust, ground collision, and a height-colored terrain mesh.
+Low-poly 3D terrain flyer — mouse-look, keyboard thrust, day/night lighting.
 
-![Ridgeflight](public/og.jpg)
+An experimental WebGL/Three-style flight sketch. It is a **toy** for camera, lighting, and control feel — not a flight simulator and not a game with a win condition.
 
-## Fly
+## Controls
 
-- **Mouse** — look (click to lock pointer; drag on touch)
-- **W / S** — thrust / brake
-- **A / D** — yaw left / right
-- **Space / Shift** — climb / descend
-- **F** — wireframe
-- **N** — day / night
-- **Esc** — pause
+Typical bindings (check the in-app overlay if they differ):
 
-The hull will not pass through the ground. On a phone, the left stick is thrust/yaw and the chevrons climb or descend.
-
-## Stack
-
-React 19, TanStack Start, Three.js, React Three Fiber, Tailwind v4.
+- Mouse — look
+- WASD / arrows — thrust / strafe
+- Shift — more thrust
+- Time-of-day control if the UI exposes it
 
 ## Run
 
@@ -27,13 +20,11 @@ npm install
 npm run dev
 ```
 
-Open the printed local URL. Production build:
+## Notes
 
-```bash
-npm run build
-npm run preview
-```
+A previous homepage pointed at a Grok sandbox URL that does not survive outside that session. That link has been removed. Run locally from this repository.
 
-## License
+## Related
 
-Source in this repository is provided as-is for the Ridgeflight demo.
+- [wake](https://github.com/ahmaddroobi99/wake)
+- [aether-visualizer](https://github.com/ahmaddroobi99/aether-visualizer)
