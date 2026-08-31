@@ -28,3 +28,8 @@ A previous homepage pointed at a Grok sandbox URL that does not survive outside 
 
 - [wake](https://github.com/ahmaddroobi99/wake)
 - [aether-visualizer](https://github.com/ahmaddroobi99/aether-visualizer)
+
+---
+
+Account grouping: research first, undergraduate last — see the [profile README](https://github.com/ahmaddroobi99/ahmaddroobi99). GitHub cannot custom-sort the Repositories tab.
+
